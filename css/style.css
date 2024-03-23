@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+}
+nav{
+    background-color: teal;
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+}
+.jubayer{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 30%;
+    float: left;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    float: left;
+    padding: 13px 20px;
+}
+
+.menu ul li a{
+    color: white;
+}
+
+/*banner part css start */
+#banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.banner_overlay{
+    padding: 170px 0;
+    background-color: rgba(0, 0, 0, 0.54);
+}
+
+.banner_con{
+    color: white;
+}
+
+.banner_con h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 15px;
+}
+.banner_con h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: monospace;
+    margin-bottom: 45px;
+    color: orange;
+}
+.banner_con a{
+    padding: 13px 30px;
+    background-color: teal;
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+}
+/*banner part css end*/
+
+/*about part css start */
+.about_heading h4{
+    text-align: center;
+    font-size: 40px;
+    background-color: teal;
+    color: white;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin: 40px 0;
+    padding: 8px 0;
+    border-radius: 8px;
+}
+
+.about_image{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+
+.about_image img{
+    width: 100%;
+}
+
+.about_content{
+    width: 50%;
+    float: left;
+}
+
+.about_content{
+    padding-top: 25px;
+}
+
+.about_content h4{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.about_content p{
+    line-height: 23px;
+}
+/*about part css end*/
+
+/*gallery part css start*/
+.gallery_image{
+    width: 32%;
+    float: left;
+}
+
+.gallery_image img{
+    width: 100%;
+}
+.gallery_image{
+    position: relative;
+}
+.gallery_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.gallery_overlay a{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.gallery_image:hover .gallery_overlay{
+    transform: scale(1);
+     transition: all linear .3s;
+}
+
+.gallary_middle{
+    margin: 0px 2%;
+}
+
+/*gallery part css end*/
+
+/*footer part html start */
+footer{
+    background-color: black;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.copyright p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+/*footer part html end*/
